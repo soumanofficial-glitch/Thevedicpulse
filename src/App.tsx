@@ -14,7 +14,8 @@ import { PaymentFlow } from "./components/PaymentFlow";
 import { ReportDashboard } from "./components/ReportDashboard";
 import { Testimonials } from "./components/Testimonials";
 import { Footer } from "./components/Footer";
-import { BirthDetails, AstrologyReport, generateAstrologyReport } from "./services/aiAstrologyService";
+import { generateAstrologyReport } from "./services/aiAstrologyService";
+import { BirthDetails, AstrologyReport } from "./types";
 
 export default function App() {
   const [selectedProduct, setSelectedProduct] = useState<{ id: string; price: number } | null>(null);

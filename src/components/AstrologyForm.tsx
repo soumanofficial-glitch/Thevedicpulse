@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { X, MapPin, Calendar, Clock, User } from "lucide-react";
-import { BirthDetails } from "../services/aiAstrologyService";
+import { BirthDetails } from "../types";
 
 export const AstrologyForm = ({ 
   onClose, 

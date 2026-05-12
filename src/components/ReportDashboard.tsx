@@ -10,7 +10,7 @@ import {
   CircleDollarSign,
   Star
 } from "lucide-react";
-import { AstrologyReport, BirthDetails } from "../services/aiAstrologyService";
+import { AstrologyReport, BirthDetails } from "../types";
 
 export const ReportDashboard = ({ 
   report, 
